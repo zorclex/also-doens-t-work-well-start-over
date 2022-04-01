@@ -5,7 +5,7 @@ using UnityEngine;
 public class boxScript : MonoBehaviour
 {
     Vector3 goUp, goDown, goLeft, goRight, goJump;
-    public float speed = 2.0f;
+    public float speed = 4.0f;
     private Rigidbody rb;
 
     // Start is called before the first frame update
@@ -50,6 +50,7 @@ public class boxScript : MonoBehaviour
             print("space bar was pressed");
             rb.velocity = goJump * speed;
         }
+
     }
     //cabbage
 }
